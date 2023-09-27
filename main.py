@@ -11,7 +11,7 @@ if __file__ == 'main.py':
 
     st.set_page_config(layout='wide')
     st.title(title)
-    st.image('images.jpg')
+    st.image('image.jpg')
     st.write(text)
 
 
