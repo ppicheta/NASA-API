@@ -5,7 +5,7 @@ class Content:
     def __init__(self, api_key) -> None:
         self.api_key = api_key
 
-    def get_content(self, api_key):
+    def get_content(self):
         # make a request
         url = f'https://api.nasa.gov/planetary/apod?api_key={self.api_key}'
         response = requests.get(url).json()
